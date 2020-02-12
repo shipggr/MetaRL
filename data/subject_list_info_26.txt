@@ -1,0 +1,3 @@
+26 subjects
+exclued those subjects whose performance was worse than 50% correct in the
+later half of any one of the 4 blocks.
