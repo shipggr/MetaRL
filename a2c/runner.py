@@ -125,5 +125,5 @@ class Runner:
             for bandit in bandits:
                 self.run_episode(bandit)
                 for k, val in self.episode_buffer.items():
-                    self.stats[bandit.name][k].extend(val)
+                    self.stats[bandit.name][k].append(val)
         return self.rewards_history, self.stats
